@@ -103,7 +103,7 @@
             <p class="lead">Based in 6 acres of beautiful woodland, with lots of challenging twists and turn to navigate through</p>
         </div>
         <div class="col-md-5">
-            <img class="featurette-image img-responsive center-block" height="500" alt="500x500" src="{{asset('images/image7.jpg')}}" >
+            <img class="featurette-image img-responsive center-block" height="500" alt="500x500" src="{{asset('images/image7.JPG')}}" >
         </div>
     </div>
 
@@ -112,7 +112,7 @@
     <div class="row featurette">
         <div class="col-md-7 col-md-push-5">
             <h2 class="featurette-heading">15 minutes training</h2>
-            <p class="lead">The instructor will spend 15 minutes making get you on the segways and making sure you are ready to hit the trail</p>
+            <p class="lead">The instructor will spend 15 minutes making get you on the segways and making sure you are ready to hit the trail.</p>
         </div>
         <div class="col-md-5 col-md-pull-7">
             <img class="featurette-image img-responsive center-block" src="{{asset('images/image4.jpg')}}" data-holder-rendered="true">
