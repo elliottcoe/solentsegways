@@ -40,7 +40,9 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Be right back.</div>
+
+                <img src="{{asset('images/mainlogo.jpg')}}" alt="">
+                <p><b>We'll be right back...</b></p>
             </div>
         </div>
     </body>
