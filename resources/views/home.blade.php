@@ -103,7 +103,7 @@
             <p class="lead">Based in 6 acres of beautiful woodland, with lots of challenging twists and turn to navigate through</p>
         </div>
         <div class="col-md-5">
-            <img class="featurette-image img-responsive center-block" height="500" alt="500x500" src="{{asset('images/image7.JPG')}}" >
+            <img class="featurette-image img-responsive center-block" height="500" alt="500x500" src="{{asset('images/image7.jpg')}}" >
         </div>
     </div>
 
