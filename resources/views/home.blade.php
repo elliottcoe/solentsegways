@@ -42,7 +42,7 @@
                 </div>
             </div>
         </div>
-        
+
     </div>
     <a class="left carousel-control" href="https://getbootstrap.com/examples/carousel/#myCarousel" role="button" data-slide="prev">
         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -66,7 +66,7 @@
         <div class="col-lg-4">
             <img class="img-circle" src="{{asset('images/logo.jpg')}}" alt="Generic placeholder image" width="140" height="140">
             <h2>The Gear</h2>
-            <p>Some information about the amazing and powerful Segway X2s</p>
+            <p>Check out the gear</p>
             <p><a class="btn btn-default" href="https://getbootstrap.com/examples/carousel/#" role="button">View details »</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
