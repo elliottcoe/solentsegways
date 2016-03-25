@@ -26,4 +26,5 @@
 
 Route::group(['middleware' => ['web']], function () {
     Route::get('/','index@main');
+    Route::get('/contact','contact@index');
 });

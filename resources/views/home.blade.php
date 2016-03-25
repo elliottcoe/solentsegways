@@ -1,4 +1,4 @@
-@extends('layout.master')
+@extends('layout.landingmaster')
 
 @section('body')
 <!-- Carousel

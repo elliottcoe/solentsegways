@@ -16,9 +16,6 @@
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
 
-    <!-- Main Style -->
-    <link rel="stylesheet" href="{{asset('css/main.css')}}">
-
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -26,7 +23,7 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <!-- Custom styles for this template -->
-
+    <link href="{{asset('css/carousel.css')}}" rel="stylesheet">
 
     <!--Google Analytics-->
     <script>
@@ -40,26 +37,49 @@
 
     </script>
 </head>
-
+<!-- NAVBAR
+================================================== -->
 <body>
-
-<div class="container">
-
 @include('layout.includes.navbar')
-
-    <!-- Main component for a primary marketing message or call to action -->
 @yield('body')
 
-</div> <!-- /container -->
+
+        <!-- FOOTER -->
+<footer>
+    <p class="pull-right"><a href="#top">Back to top</a></p>
+    <p>© 2016 Solent Segways · <a href="privacy">Privacy</a> · <a href="terms">Terms</a></p>
+</footer>
+
+</div><!-- /.container -->
 
 
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-<script src="../../dist/js/bootstrap.min.js"></script>
-<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+<script src="{{asset('js/jquery.min.js')}}"></script>
+
+<script src="{{asset('js/bootstrap.min.js')}}"></script>
+<!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+<script src="{{asset('js/holder.min.js')}}"></script>
+
+
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500" preserveAspectRatio="none"
+     style="display: none; visibility: hidden; position: absolute; top: -100%; left: -100%;">
+    <defs>
+        <style type="text/css"></style>
+    </defs>
+    <text x="0" y="25" style="font-weight:bold;font-size:25pt;font-family:Arial, Helvetica, Open Sans, sans-serif">
+        500x500
+    </text>
+</svg>
 </body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.5&appId=185555114128";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
 </html>
